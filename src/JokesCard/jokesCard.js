@@ -61,7 +61,7 @@ export class JokesCard extends React.Component {
           <p>{joke}</p>
         </div>
         <div className={style.icon}>
-          <img src={jokesSmall} />
+          <img src={jokesSmall} alt="icon"/>
         </div>
       </div>
     );
