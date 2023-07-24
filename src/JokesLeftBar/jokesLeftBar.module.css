@@ -1,0 +1,56 @@
+.jokesLeftBar{
+    width: 400px;
+    height: 100%;
+    background-color: #9575cd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 200px;
+}
+
+.icon img {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 250px;
+    border: 20px solid #9575cd;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.jokesLeftBar div:first-child{
+    text-align: center;
+    width: 200px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+
+.jokesLeftBar span{
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+
+.jokesLeftBar button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 40px;
+    background-image: linear-gradient(140deg, #b3e5fc 50%, #f06292 50%);
+    margin-left: 20px;
+}
+

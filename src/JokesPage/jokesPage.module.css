@@ -1,0 +1,7 @@
+.jokesPage{
+    min-height: 100vh;
+    background-color: aqua;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
