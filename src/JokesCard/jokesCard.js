@@ -5,7 +5,7 @@ import jokesSmall from "../SmileIcon/happy-face.png"
 import { PropTypes } from "prop-types";
 
 
-export class JokesCard extends React.Component {
+class JokesCard extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -72,3 +72,5 @@ JokesCard.propTypes = {
   addVoteItem: PropTypes.func,
   removeVoteItem: PropTypes.func,
 };
+
+export default JokesCard;

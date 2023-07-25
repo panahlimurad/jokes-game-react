@@ -1,11 +1,11 @@
 import React from "react";
 import style from "./jokesPage.module.css"
-import { JokesList } from "../JokesList/jokesList";
+import JokesList from "../JokesList/jokesList"
 import { getJokes } from "../service/jokesAxios";
-import { JokesLeftBar } from "../JokesLeftBar/jokesLeftBar";
+import JokesLeftBar from "../JokesLeftBar/jokesLeftBar"
 import { motion } from "framer-motion";
 
-export class JokesPage extends React.Component {
+class JokesPage extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -63,7 +63,7 @@ export class JokesPage extends React.Component {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={ {duration: 1 } }
+        transition={{ duration: 1 }}
       >
         <JokesList
           addVoteItem={this.addVoteItem}
@@ -75,3 +75,5 @@ export class JokesPage extends React.Component {
     );
   }
 }
+
+export default JokesPage;

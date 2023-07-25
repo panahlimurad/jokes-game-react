@@ -3,7 +3,7 @@ import style from "./startJokesPage.module.css"
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-export class StartJokesPage extends React.Component{
+class StartJokesPage extends React.Component{
     render() {
         return (
           <motion.div
@@ -20,3 +20,5 @@ export class StartJokesPage extends React.Component{
         );
     }
 }
+
+export default StartJokesPage;

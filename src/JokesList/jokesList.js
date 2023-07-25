@@ -1,10 +1,9 @@
 import React from "react";
 import style from "./jokesList.module.css"
-import { JokesCard } from "../JokesCard/jokesCard";
 import { PropTypes } from "prop-types";
+import JokesCard from '../JokesCard/jokesCard'
 
-
-export class JokesList extends React.Component {
+class JokesList extends React.Component {
   static defaultProps = {
     data: [],
 };
@@ -34,3 +33,5 @@ JokesList.propTypes = {
   removeVoteItem: PropTypes.func,
   data: PropTypes.array,
 };
+
+export default JokesList;

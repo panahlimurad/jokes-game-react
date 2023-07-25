@@ -3,7 +3,7 @@ import style from "./jokesLeftBar.module.css"
 import iconBig from "../SmileIcon/smileBig.png"
 import { Link } from "react-router-dom";
 
-export class JokesLeftBar extends React.Component {
+class JokesLeftBar extends React.Component {
     render() {
         return (
           <div className={style.jokesLeftBar}>
@@ -20,3 +20,5 @@ export class JokesLeftBar extends React.Component {
         );
     }
 }
+
+export default JokesLeftBar;
